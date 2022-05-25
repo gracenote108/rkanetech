@@ -20,7 +20,7 @@ namespace rkanetech.Models
         public string FirstName { get; set; }
 
         [Required]
-        public string MiddleName { get; set; }
+        public string? MiddleName { get; set; }
 
         [Required]
         public string LastName { get; set; }

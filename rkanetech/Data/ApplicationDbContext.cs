@@ -13,5 +13,6 @@ namespace rkanetech.Data
         protected override void OnConfiguring(DbContextOptionsBuilder opts) => opts.UseNpgsql();
 
         DbSet<AddressModel> Addresses { get; set; }
+        DbSet<UserModel> Users { get; set; }
     }
 }
